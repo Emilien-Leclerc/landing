@@ -5,7 +5,7 @@ body {
   font-size: 18px;
 }
 p{
-	color:  grey;
+	color: grey;
 }
 
 a {
@@ -16,32 +16,34 @@ a {
 }
 h1{
   font-family: Chivo, sans-serif;
-  color: white;
+  color: black;
 }
 
 h2{
 	font-family: Chivo, sans-serif;
 	color:  black;
-	padding: 300px;
+	padding: 10px 0px 0px 0px;
+	text-align: center;
 }
 
 h3{font-family: Chivo, sans-serif;
   color: black;
 }
 
-.btn-blue{
-	width: 200px;
-	Height: 36px;
-	background-color: blue;
-	padding: 15px 0px 0px 0px;
-	border-radius: 5px;
+.banner{
+	height: 350px;
+	background-image:  url("images/corvette7.jpeg");
+	background-size: cover;
+	background-position: center;
+	padding: 150px;
+	text-align: center;
 }
 
-.banner{
-	height: 450px;
-	background-image:  url("images/background.jpg");
-	background-size: cover;
-	text-align: center;
+.btn-blue{
+	width: 200px;
+	background-color: blue;
+	padding: 12px 40px;
+	border-radius: 5px;
 }
 
 .card-white {
@@ -50,7 +52,7 @@ h3{font-family: Chivo, sans-serif;
   border-radius: 4px;
   width: 200px;
   text-align: center;
-  padding: 24px;
+  padding: 24px ;
   margin: 8px;
 }
 
@@ -58,8 +60,14 @@ h3{font-family: Chivo, sans-serif;
 	width: 200px;
 }
 
+.footer {
+  background: white;
+  text-align: center;
+  padding: 24px 0;
+}
+
 .cards{ 
-	padding: 0px 100px;
+	padding: 100px 303px;
 	margin: 0auto;
 	display:  grid;
 	grid-template-columns: 1fr 1fr 1fr;
